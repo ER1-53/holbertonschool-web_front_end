@@ -1,3 +1,9 @@
+
+/* task15 */
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
 /* task 1*/
 html {
     scroll-behavior: smooth;
@@ -176,7 +182,7 @@ background-color: var(--color-light-grey);
  */
 
 /* task15 */
-* + *::after + *::before {
+*, *::after, *::before {
 	box-sizing: border-box;
 }
 
