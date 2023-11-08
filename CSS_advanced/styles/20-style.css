@@ -627,7 +627,7 @@ background-color: var(--color-light-grey);
 }
 
 /* task20 */
-.row + .row::before {
+.row, .row::before {
     content: "";
     display: table;
     clear: both;
