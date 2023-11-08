@@ -711,7 +711,7 @@ background-color: var(--color-light-grey);
     width: 10rem;
     height: 10rem;
 }
-.card-testimonial .card-avatar cite {
+.card-testimonial .card-quote  cite {
     display: block;
     padding-top: 1rem;
     color:var(--color-primary)
