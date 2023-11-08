@@ -1,5 +1,5 @@
 /* task15 */
-* + *::after + *::before {
+*, *::after, *::before {
 	box-sizing: border-box;
 }
 /* task 1*/

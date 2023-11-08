@@ -1,5 +1,5 @@
 /* task15 */
-* + *::after + *::before {
+*, *::after, *::before {
 	box-sizing: border-box;
 }
 /* task 1*/
@@ -640,3 +640,8 @@ background-color: var(--color-light-grey);
 }
 
 /* task 22 */
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background: var(--color-black)
+}
