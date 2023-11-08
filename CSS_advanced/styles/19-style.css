@@ -1,5 +1,5 @@
 /* task15 */
-* {
+*, *::after, *::before {
 	box-sizing: border-box;
 }
 /* task 1*/
@@ -601,7 +601,7 @@ background-color: var(--color-light-grey);
     margin: var(--section-tagline-margin);
 }
 
-.row ul {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
