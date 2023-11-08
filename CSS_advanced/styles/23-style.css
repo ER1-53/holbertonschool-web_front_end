@@ -653,7 +653,7 @@ background-color: var(--color-light-grey);
 .social-link {
     display: block;
 }
-.social-link svg {
+.social-link > svg {
     color: var(--text-color);
 }
 
