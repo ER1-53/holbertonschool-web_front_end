@@ -363,7 +363,7 @@ background-color: var(--color-light-grey);
   [type="button"],
   [type="reset"],
   [type="submit"] {
-    -webkit-appearance: button;
+    --webkit-appearance: button;
   }
   
   /**
@@ -455,7 +455,7 @@ background-color: var(--color-light-grey);
    */
   
   [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
+    --webkit-appearance: textfield; /* 1 */
     outline-offset: -2px; /* 2 */
   }
   
