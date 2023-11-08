@@ -794,8 +794,11 @@ background-color: var(--color-light-grey);
     height: 100%;
     position: relative;
 }
-.card-work .card-title 
-
+.card-work .card-title a {
+    display: block;
+    text-decoration: none;
+    padding-top: 45%;
+} 
 .card-work .card-title a::after {
     content: "";
     position: absolute;
