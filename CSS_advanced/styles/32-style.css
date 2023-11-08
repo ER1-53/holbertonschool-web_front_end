@@ -693,11 +693,11 @@ background-color: var(--color-light-grey);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
-.button:hover {
+/*.button:hover {
     color: var(--button-hover-color);
     background: var(--button-hover-background);
     text-decoration: var(--button-hover-text-decoration);
-}
+}*/
 [data-section-theme="dark"] {
     --button-color: var(--color-white)
 }
@@ -840,8 +840,11 @@ background-color: var(--color-light-grey);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .button:hover {
+    color: var(--button-hover-color);
+    background-color: var(--button-hover-background);
+    text-decoration: var(--button-hover-text-decoration);
     transition-duration: var(--transition-duration);
-    transition-property: var(--button-hover-color) var(--button-hover-background);
+    transition-property: color, background-color;
 }
 .card-work .card-inner {
     transition: var(--transition-duration) var(--transition-cubic-bezier);
