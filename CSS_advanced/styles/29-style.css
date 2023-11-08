@@ -589,7 +589,8 @@ background-color: var(--color-light-grey);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-white);/*var(--color-primary); update task 29*/
+    --nav-item-link-hover: var(--color-white);
+    /*var(--color-primary); update task 29*/
 }
 
 /*task19*/
@@ -752,13 +753,13 @@ background-color: var(--color-light-grey);
 
 /* task 29 --nav-item-link-hover: var(--color-white); var(--color-primary); update task 29*/
 .nav .nav-link::before {
-    content: none;
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
 }
 .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
