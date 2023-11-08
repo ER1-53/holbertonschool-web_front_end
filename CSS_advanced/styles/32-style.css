@@ -827,7 +827,7 @@ background-color: var(--color-light-grey);
 /* task 32 */
 :root {
     --transition-duration: .3s;
-    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01)
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 .card-work:hover .card-image {
     transform: scale(1.2);   
@@ -841,7 +841,7 @@ background-color: var(--color-light-grey);
 .button:hover {
     transition-duration: var(--transition-duration);
     transition: var(--button-color);
-    transition: var(--button-hover-background)
+    transition: var(--button-hover-background);
 }
 .card-work:hover .card-image {
     transition: var(--transition-duration) var(--transition-cubic-bezier);
