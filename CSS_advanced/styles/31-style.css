@@ -811,15 +811,14 @@ background-color: var(--color-light-grey);
 
 /* task31 */
 .card-testimonial .card-quote {
-    position: inherit;
-
+    position: relative;
 }
 .card-quote .pseudo-element::before {
-    content: \201C;
+    content: "\201C";
     position: absolute;
-    top: 1rem;
-    right: -4.5rem;
-    bottom: 1rem;
-    left: -4.5rem;
+    top: -4.5rem; /*vertical position of the selected elements */
+    left: 1rem; /*horizontal position from the left*/
+    color: #efeded;
+    font-size: 10rem;
     z-index: -1;
 }
