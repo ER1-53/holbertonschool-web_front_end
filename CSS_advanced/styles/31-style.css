@@ -813,7 +813,7 @@ background-color: var(--color-light-grey);
 .card-testimonial .card-quote {
     position: relative;
 }
-.card-quote .pseudo-element::before {
+.card-testimonial .card-quote::before {
     content: "\201C";
     position: absolute;
     top: -4.5rem; /*vertical position of the selected elements */
